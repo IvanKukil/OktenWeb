@@ -1,3 +1,7 @@
+html, body {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: #E5E5E5;   /* #F5F7FA */
@@ -8,6 +12,6 @@ body {
 
 }
 
-h1 {
+.family {
     color: #dc6626;
 }

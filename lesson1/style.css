@@ -1,0 +1,9 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #E5E5E5;   /* #F5F7FA */
+}
+
+.img {
+    width: 300px;
+    height: 300px;
+}

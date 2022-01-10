@@ -7,6 +7,15 @@ body {
     background-color: #E5E5E5;   /* #F5F7FA */
 }
 
+.main {display: flex;
+
+}
+
+.main-content {
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px 90px;
+}
+
 .img {
     width: 200px;
 

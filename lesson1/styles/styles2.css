@@ -1,0 +1,45 @@
+html, body {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #E5E5E5;   /* #F5F7FA */
+}
+
+.main {
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.main-content {
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px 90px;
+}
+
+.img {
+    width: 200px;
+
+}
+
+.family {
+    color: #dc6626;
+}
+
+.sidebar {
+    width: 600px;
+    background-color: #c9c6c6;
+    padding-right: 40px;
+    padding-top: 40px;
+}
+
+a {
+    color: #dc6626;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+li {
+    color: #dc6626;
+}

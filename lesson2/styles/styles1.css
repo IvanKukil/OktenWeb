@@ -1,0 +1,32 @@
+/*img_1*/
+
+.lesson2 {
+    color: #f8e8d6;
+    background: #8a2928;
+    text-align: center;
+}
+
+.first {
+    background: silver;
+    padding: 20px;
+}
+
+.second {
+    background: deepskyblue;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.third {
+    width: 200px;
+    height: 200px;
+    background: #78bd74;
+}
+
+.fourth {
+    width: 200px;
+    height: 200px;
+    background: #8886AB;
+    border-radius: 20px;
+    box-sizing: border-box;
+}

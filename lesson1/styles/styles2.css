@@ -3,24 +3,29 @@ html, body {
 }
 
 body {
+    margin: 0;
     font-family: 'Montserrat', sans-serif;
     background-color: #E5E5E5;   /* #F5F7FA */
 }
 
 .main {
+    box-sizing: border-box;
     display: flex;
     flex-direction: row-reverse;
 
 }
 
 .main-content {
-    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    box-sizing: inherit;
+    /*box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);*/
     padding: 30px 90px;
+    border: 10px solid indianred;
+
 }
 
 .img {
     width: 200px;
-
+    /*float: right;*/
 }
 
 .family {
@@ -32,6 +37,7 @@ body {
     background-color: #c9c6c6;
     padding-right: 40px;
     padding-top: 40px;
+    padding-left: 10px;
 }
 
 a {
@@ -42,4 +48,8 @@ a {
 
 li {
     color: #dc6626;
+}
+
+p {
+    text-align: justify;
 }

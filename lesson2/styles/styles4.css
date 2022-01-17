@@ -1,0 +1,61 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background: #252525;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    margin: 0;
+}
+
+input {
+    background: #252525;
+    width: 85%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+
+::placeholder {
+    font-size: 14px;
+    text-align: center;
+}
+
+.first-placeholder {
+    border: 4px solid orange;
+}
+
+.first-placeholder::placeholder {
+    color: orange;
+}
+
+.second-placeholder {
+    border: 4px solid aqua;
+}
+
+.second-placeholder::placeholder {
+    color: aqua;
+}
+
+.third-placeholder {
+    border: 4px solid hotpink;
+}
+
+.third-placeholder::placeholder {
+    color: hotpink;
+}
+
+.fourth-placeholder {
+    border: 4px solid coral;
+}
+
+.fourth-placeholder::placeholder {
+    color: coral;
+}

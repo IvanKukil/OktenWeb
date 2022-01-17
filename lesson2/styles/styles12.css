@@ -1,0 +1,95 @@
+/*img_1*/
+
+.lesson2 {
+    color: #f8e8d6;
+    background: #8a2928;
+    text-align: center;
+}
+
+.first {
+    background: silver;
+    padding: 20px;
+}
+
+.second {
+    background: deepskyblue;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.third {
+    width: 200px;
+    height: 200px;
+    background: #78bd74;
+}
+
+.fourth {
+    width: 200px;
+    height: 200px;
+    background: #8886AB;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+/*img_2*/
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-content {
+    background: #d3d3d3;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.A, .B, .C, .D, .E, .F {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background: orange;
+    margin: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    box-sizing: border-box;
+    padding: 40px;
+    border: 2px solid green;
+}
+
+.E, .F {
+    border-radius: 5px;
+}
+
+.A {
+    box-shadow: darkslategray 10px 10px;
+}
+
+.B, .E {
+    box-shadow: darkslategray 10px 10px 5px;
+}
+
+.C {
+     box-shadow: darkslategray 10px 10px 5px 2px;
+ }
+
+.D, .F {
+     box-shadow: gray 10px 10px 5px 2px;
+ }
+
+
+
+
+
+
+
+

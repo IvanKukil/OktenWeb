@@ -1,0 +1,24 @@
+.wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 60px;
+}
+
+.block1 {
+    background: gray;
+    width: 550px;
+    height: 300px;
+    box-shadow: #F4A460 -20px -20px 55px;
+}
+
+.block2 {
+    margin-top: 20px;
+}
+
+p {
+    margin: 0;
+    font-size: 24px;
+    border-left: 4px solid indianred;
+    padding-left: 30px;
+}

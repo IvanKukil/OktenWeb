@@ -11,21 +11,16 @@ body {
 .main {
     box-sizing: border-box;
     display: flex;
-    flex-direction: row-reverse;
-
 }
 
 .main-content {
-    box-sizing: inherit;
     /*box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);*/
     padding: 30px 90px;
     border: 10px solid indianred;
-
 }
 
 .img {
     width: 200px;
-    /*float: right;*/
 }
 
 .family {

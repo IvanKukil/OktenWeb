@@ -7,9 +7,83 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>img4</title>
 </head>
+<style>
+    #header {
+        background-color: lightgreen;
+        height: 100px;
+        width: auto;
+        border: 1px solid black;
+        margin: 20px auto;
+    }
+
+    #footer {
+        background-color: beige;
+        height: 100px;
+        width: auto;
+        border: 1px solid black;
+        margin: 20px auto;
+    }
+
+    #menu {
+        background-color: deeppink;
+        width: 20%;
+        height: 100%;
+        border: 1px solid black;
+        margin-right: 20px;
+    }
+
+    .post {
+        background-color: deepskyblue;
+        width: 100%;
+        height: 50%;
+        border: 1px solid black;
+        box-sizing: border-box;
+    }
+
+    .wrapper {
+        display: flex;
+        flex-direction: row;
+        height: 600px;
+
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        row-gap: 20px;
+    }
+
+    .text-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 2em;
+        font-weight: bold;
+        font-family: Arial, serif;
+    }
+</style>
 <body>
 
-
-
+<div id="header" class="text-div">
+    div id = "header"
+</div>
+<div class="wrapper">
+<div id="menu" class="text-div">
+    div id = "menu"
+</div>
+<div class="content">
+    <div class="post text-div">
+        div class = "post"
+    </div>
+    <div class="post text-div">
+        div class = "post"
+    </div>
+</div>
+</div>
+<div id="footer" class="text-div">
+    div id = "footer"
+</div>
 </body>
 </html>

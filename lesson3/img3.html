@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>img3</title>
+</head>
+<style>
+    .main-content {
+        display: flex;
+        flex-direction: column;
+        border: 3px solid gray;
+        border-radius: 10px;
+        box-sizing: border-box;
+        padding: 10px 8px;
+    }
+
+    .df {
+        display: flex;
+        flex-direction: row;
+        box-sizing: border-box;
+
+
+    }
+
+    .center {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .h200 {
+        height: 200px;
+    }
+
+    .h410 {
+        height: 410px;
+    }
+
+    .h420 {
+        height: 420px;
+    }
+
+    .w25 {
+        width: 25%;
+    }
+
+    .w33 {
+        width: 32.25%;
+    }
+
+    .w75 {
+        width: 75%;
+    }
+
+    .bg-lg {
+        background: lightgrey;
+    }
+
+    .mt10 {
+        margin-top: 10px;
+    }
+
+    .ml10 {
+        margin-left: 10px;
+    }
+
+    .fw {
+        flex-wrap: wrap;
+    }
+
+
+    p {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 5em;
+        color: grey;
+    }
+</style>
+<body>
+
+<div class="main-content">
+    <div class="df center h200 bg-lg">
+        <p>A</p>
+    </div>
+    <div class="df h420">
+        <div class="df h410 w75 fw">
+            <div class="df center h200 bg-lg w33 mt10">
+                <p>B</p>
+            </div>
+            <div class="df center h200 bg-lg w33 mt10 ml10">
+                <p>C</p>
+            </div>
+            <div class="df center h200 bg-lg w33 mt10 ml10">
+                <p>D</p>
+            </div>
+            <div class="df center h200 bg-lg w33 mt10">
+                <p>E</p>
+            </div>
+            <div class="df center h200 bg-lg w33 mt10 ml10">
+                <p>F</p>
+            </div>
+            <div class="df center h200 bg-lg w33 mt10 ml10">
+                <p>G</p>
+            </div>
+        </div>
+        <div class="df center mt10 h410 bg-lg w25">
+            <p>H</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

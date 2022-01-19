@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>img1</title>
+</head>
+<style>
+
+    .main-content {
+        display: flex;
+        flex-direction: column;
+        padding: 12px 10px;
+        column-gap: 20px;
+        row-gap: 10px;
+        box-sizing: border-box;
+        border: 3px solid grey;
+        border-radius: 10px;
+    }
+
+    .block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: lightgrey;
+
+    }
+
+    .wrap {
+        display: flex;
+        flex-direction: row;
+        column-gap: 10px;
+        row-gap: 10px;
+        box-sizing: border-box;
+    }
+
+    .h200 {
+        height: 200px;
+    }
+
+    .h600 {
+        height: 600px;
+    }
+
+    .w70 {
+        width: 70%;
+    }
+
+    .w30 {
+        width: 30%;
+    }
+
+    p {
+        font-family: 'Montserrat', sans-serif;
+        /*font-weight: bold;*/
+        font-size: 5em;
+        color: gray;
+    }
+
+</style>
+<body>
+<div class="main-content">
+
+    <div class="block h200">
+        <p>A</p>
+    </div>
+
+    <div class="wrap">
+        <div class="block h600 w70">
+            <p>B</p>
+        </div>
+
+        <div class="block h600 w30">
+            <p>C</p>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>

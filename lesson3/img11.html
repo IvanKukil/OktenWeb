@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>img11</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    .wrapper {
+      max-width: 1150px;
+      margin: 0 auto;
+    }
+
+    .flex {
+      display: flex;
+    }
+
+    .flex-column {
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+
+    .items-center {
+      align-items: center;
+    }
+
+    .justify-center {
+      justify-content: center;
+    }
+
+    .h100 {
+      height: 100px;
+    }
+
+    .h200 {
+      height: 200px;
+    }
+
+    .h250 {
+      height: 250px;
+    }
+
+    .h300 {
+      height: 300px;
+    }
+
+    .h350 {
+      height: 350px;
+    }
+
+    .h400 {
+      height: 400px;
+    }
+
+    .h660 {
+      height: 660px;
+    }
+
+    .w380 {
+      width: 380px;
+    }
+
+    .w760 {
+      width: 760px;
+    }
+
+    .bg-blue {
+      background-color: blue;
+    }
+
+    .bg-lightblue {
+      background-color: cornflowerblue;
+    }
+
+    .bg-lightorange {
+      background-color: #ffb347;
+    }
+    .bg-gray {
+      background-color: grey;
+    }
+
+    .bg-lightgray {
+      background-color: lightgray;
+    }
+
+    .bg-green {
+      background-color: green;
+    }
+
+    .bg-lightgreen {
+      background-color: lightgreen;
+    }
+
+    .bg-orange {
+      background-color: orange;
+    }
+
+    .text-center {
+      text-align: center;
+    }
+
+    .text {
+      font-family: "Arial", sans-serif;
+      font-size: 35px;
+      color: white;
+    }
+
+    .mt30 {
+      margin-top: 30px;
+    }
+
+    .mb10 {
+      margin-bottom: 10px;
+    }
+
+    .ml10 {
+      margin-left: 10px;
+    }
+  </style>
+  <body>
+    <div class="wrapper">
+      <div class="h100 bg-blue mb10 mt30 flex items-center justify-center">
+        <p class="text">Header</p>
+      </div>
+
+      <div class="flex flex-column h660 mb10">
+        <div class="h300 w380 mb10 bg-lightblue text-center">
+          <p class="text mt30">Hero</p>
+        </div>
+        <div class="h350 w380 bg-lightgreen text-center">
+          <p class="text mt30">Sidebar</p>
+        </div>
+        <div class="h400 w760 ml10 mb10 bg-lightorange text-center">
+          <p class="text mt30">Main content</p>
+          <br />
+          <p class="text">
+            **If things do not look right, make sure your browser is in
+            "Experimental Mode"**
+          </p>
+        </div>
+        <div class="h250 w760 ml10 bg-gray text-center">
+          <p class="text mt30">Extra content</p>
+        </div>
+      </div>
+
+      <div class="flex mb10">
+        <div class="h200 w760 bg-green text-center">
+          <p class="text mt30">Related Images</p>
+        </div>
+        <div
+          class="flex h200 w380 ml10 bg-lightgray items-center justify-center"
+        >
+          <p class="text">Related Posts</p>
+        </div>
+      </div>
+      <div class="h100 bg-orange flex items-center justify-center">
+        <p class="text">Footer</p>
+      </div>
+    </div>
+  </body>
+</html>

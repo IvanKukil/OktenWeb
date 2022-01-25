@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>img6</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      margin: 20px;
+    }
+
+    .wrapper {
+      max-width: 1150px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      row-gap: 20px;
+    }
+
+    .widgets {
+      height: 200px;
+      background-color: #246abbff;
+    }
+
+    .wrap {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    .group-widgets {
+      height: 200px;
+      background-color: #18467bff;
+      width: 32%;
+    }
+
+    .contact {
+      height: 750px;
+      background-color: #246abbff;
+    }
+
+    p {
+      font-family: "Arial", sans-serif;
+      font-size: 35px;
+      color: white;
+    }
+
+    .text {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+  <body>
+    <div class="wrapper">
+      <div class="widgets text"><p>Widgets</p></div>
+      <div class="wrap">
+        <div class="group-widgets text"><p>Big Widgets</p></div>
+        <div class="group-widgets text"><p>Bigger Widgets</p></div>
+        <div class="group-widgets text"><p>Huge Widgets</p></div>
+      </div>
+      <div class="contact text"><p>Contact</p></div>
+    </div>
+  </body>
+</html>

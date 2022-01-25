@@ -1,8 +1,57 @@
-body {
-  font-style: 20px;
+* {
+	margin: 0;
+	padding: 0;
 }
 
-body div {
-  font-style: 10px;
+body {
+	margin: 20px;
 }
-/*# sourceMappingURL=style.css.map */
+
+.wrapper {
+	max-width: 1150px;
+	margin: 0 auto;
+}
+
+header {
+	height: 100px;
+	background-color: #0E66A8FF;
+}
+
+.nav {
+	height: 100px;
+	background-color: #246abb;
+} 
+
+.wrap {
+	height: 500px;
+	display: flex;
+	flex-direction: row;
+	
+}
+
+.main {
+	background-color: #18A3C5FF;
+	width: 80%;
+}
+
+.aside {
+	background-color: #5376AEFF;
+	width: 20%;
+	
+}
+
+footer {
+	height: 100px;
+	background-color: #7DCCE3FF;
+}
+
+p {
+	font-size: 40px;
+	color: white;
+}
+
+.p_center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

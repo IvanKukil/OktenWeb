@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/7a904ce2fe.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>img8</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@100;300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    .wrapper {
+      max-width: 1150px;
+      margin: 0 auto;
+    }
+
+    .flex {
+      display: flex;
+    }
+
+    .items-center {
+      align-items: center;
+    }
+
+    .justify-center {
+      justify-content: center;
+    }
+
+    .column {
+      flex-direction: column;
+    }
+
+    .row {
+      flex-direction: row;
+    }
+
+    .mt10 {
+      margin-top: 10px;
+    }
+
+    .mt30 {
+      margin-top: 30px;
+    }
+
+    .ml20 {
+      margin-left: 20px;
+    }
+
+    .mb30 {
+      margin-bottom: 30px;
+    }
+
+    .mb40 {
+      margin-bottom: 40px;
+    }
+
+    .shadow {
+      border-bottom: 1px solid lightgray;
+      border-right: 1px solid lightgray;
+      box-shadow: lightgray 1px 1px 4px 0px;
+    }
+
+    h1 {
+      font-family: "Roboto", sans-serif;
+      text-align: center;
+    }
+
+    .gray {
+      color: gray;
+    }
+
+    .red {
+      color: red;
+    }
+
+    .text {
+      font-family: "Roboto", sans-serif;
+    }
+
+    .text-center {
+      text-align: center;
+    }
+
+    .w250 {
+      width: 250px;
+    }
+
+    .h360 {
+      height: 350px;
+    }
+
+    .button {
+      background: #55c3b6;
+      height: 40px;
+      padding: 0 30px;
+      color: #ffffff;
+      border: none;
+      cursor: pointer;
+      transition: box-shadow 0.25s;
+    }
+
+    .button:hover {
+      box-shadow: 1px 5px 13px 0px rgba(0, 0, 0, 0.75);
+      -webkit-box-shadow: 1px 5px 13px 0px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 1px 5px 13px 0px rgba(0, 0, 0, 0.75);
+    }
+
+    i {
+      font-size: 40px;
+      color: #55c3b6;
+    }
+  </style>
+  <body>
+    <div class="wrapper mb40">
+      <h1 class="mt10">FEATURED SERVICES</h1>
+    </div>
+    <div class="wrapper flex row">
+      <div class="flex column w250 h360 items-center shadow">
+        <i class="fas fa-star mb30 mt30"></i>
+        <h2 class="text red mb30">Service 1</h2>
+        <p class="text gray text-center mb30">
+          This is a simple testing services box. According to your requirment
+          you can customize this its free to use.
+        </p>
+        <button class="button">Learn More</button>
+      </div>
+
+      <div class="flex column w250 h360 items-center shadow ml20">
+        <i class="fas fa-map-marker-alt mb30 mt30"></i>
+        <h2 class="text red mb30">Service 2</h2>
+        <p class="text gray text-center mb30">
+          This is a simple testing services box. According to your requirment
+          you can customize this its free to use.
+        </p>
+        <button class="button">Learn More</button>
+      </div>
+
+      <div class="flex column w250 h360 items-center shadow ml20">
+        <i class="fas fa-fire mb30 mt30"></i>
+        <h2 class="text red mb30">Service 3</h2>
+        <p class="text gray text-center mb30">
+          This is a simple testing services box. According to your requirment
+          you can customize this its free to use.
+        </p>
+        <button class="button">Learn More</button>
+      </div>
+
+      <div class="flex column w250 h360 items-center shadow ml20">
+        <i class="fas fa-globe-americas mb30 mt30"></i>
+        <h2 class="text red mb30">Service 4</h2>
+        <p class="text gray text-center mb30">
+          This is a simple testing services box. According to your requirment
+          you can customize this its free to use.
+        </p>
+        <button class="button">Learn More</button>
+      </div>
+    </div>
+  </body>
+</html>

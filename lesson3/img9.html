@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/7a904ce2fe.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>img8</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@100;300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    .wrapper {
+      max-width: 1150px;
+      margin: 0 auto;
+    }
+
+    .flex {
+      display: flex;
+    }
+
+    .items-center {
+      align-items: center;
+    }
+
+    .justify-center {
+      justify-content: center;
+    }
+
+    .space {
+      justify-content: space-evenly;
+    }
+
+    .column {
+      flex-direction: column;
+    }
+
+    .mt30 {
+      margin-top: 30px;
+    }
+
+    .mt100 {
+      margin-top: 100px;
+    }
+
+    .mb30 {
+      margin-bottom: 30px;
+    }
+
+    .border {
+      border: 1px solid lightgray;
+    }
+
+    h1 {
+      font-family: "Roboto", sans-serif;
+      text-align: center;
+    }
+
+    .gray {
+      color: gray;
+    }
+
+    .text {
+      font-family: "Roboto", sans-serif;
+      line-height: 30px;
+    }
+
+    .text-center {
+      text-align: center;
+    }
+
+    .w250 {
+      width: 266px;
+    }
+
+    .h350 {
+      height: 350px;
+    }
+
+    .button {
+      background: #ffffff;
+      height: 40px;
+      padding: 0 50px;
+      color: #000000;
+      border: 1px solid black;
+      cursor: pointer;
+      transition: box-shadow 0.25s;
+    }
+
+    .button:hover {
+      box-shadow: 1px 5px 13px 0px rgba(0, 0, 0, 0.75);
+      -webkit-box-shadow: 1px 5px 13px 0px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 1px 5px 13px 0px rgba(0, 0, 0, 0.75);
+    }
+
+    i {
+      font-size: 35px;
+      color: orange;
+    }
+
+    .icon {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background-color: white;
+      position: relative;
+      top: -67px;
+      border: 1px solid lightgray;
+
+      text-align: center;
+    }
+  </style>
+  <body>
+    <div class="wrapper flex space mt100">
+      <div class="flex column w250 h350 items-center border">
+        <div class="icon">
+          <i class="fas fa-desktop mb30 mt30"></i>
+        </div>
+        <h2 class="text mb30">Responsive Design</h2>
+        <p class="text gray text-center mb30">
+          Flat bootstrap responsive our services box free download. Download and
+          use it.
+        </p>
+        <button class="button mb30">Learn More</button>
+      </div>
+
+      <div class="flex column w250 h350 items-center border">
+        <div class="icon">
+          <i class="far fa-life-ring mb30 mt30"></i>
+        </div>
+        <h2 class="text mb30">User Interface Design</h2>
+        <p class="text gray text-center mb30">
+          Flat bootstrap responsive our services box free download. Download and
+          use it.
+        </p>
+        <button class="button mb30">Learn More</button>
+      </div>
+
+      <div class="flex column w250 h350 items-center border">
+        <div class="icon">
+          <i class="fas fa-glass-martini mb30 mt30"></i>
+        </div>
+        <h2 class="text mb30">Web Development</h2>
+        <p class="text gray text-center mb30">
+          Flat bootstrap responsive our services box free download. Download and
+          use it.
+        </p>
+        <button class="button mb30">Learn More</button>
+      </div>
+    </div>
+  </body>
+</html>

@@ -36,7 +36,7 @@ const lastName = 'Kukil';
 
 const person = firstName + ' ' + middleName + ' ' + lastName;
 
-prompt('Hello, ' + firstName + ' ' + middleName + '. How old are you?','');
+const age = +prompt('Hello, ' + firstName + ' ' + middleName + '. How old are you?','');
 let a = 100; let b = '100'; let c = true;
 console.log(typeof (a));
 console.log(typeof (b));

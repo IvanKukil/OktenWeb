@@ -30,13 +30,13 @@ const value9 = false;
 console.log(value9);
 
 //task2
-const firstName = 'Ivan';
-const middleName = 'Dmytrovych';
-const lastName = 'Kukil';
+const firstName = prompt('What is your name?','');
+const middleName = prompt('What is your middleName?','');
+const lastName = prompt('What is your lastName?','');
 
 const person = firstName + ' ' + middleName + ' ' + lastName;
 
-const age = +prompt('Hello, ' + firstName + ' ' + middleName + '. How old are you?','');
+const age = +prompt('Hello, ' + person + ' . How old are you?','');
 let a = 100; let b = '100'; let c = true;
 console.log(typeof (a));
 console.log(typeof (b));

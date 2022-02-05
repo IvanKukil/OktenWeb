@@ -35,28 +35,50 @@ const book2 = {
 
 //Створити маис об'єктів book з наступними полями
 // Вивести кожну книгу як окремий об'єкт
-function outputObject (myObject) {
-    for (let key in myObject) {
-        console.log(myObject[key]);
-    }
-}
 
-const books = {
-    babylon: {
+
+// const books = {
+//     babylon: {
+//         name: 'The Richest Man in Babylon',
+//         pages: 144,
+//         genre: 'Self-help book',
+//     },
+//     weapon: {
+//         name: 'The Perfect Weapon',
+//         pages: 381,
+//         genre: 'techno-thriller novel',
+//         author: 'David E. Sanger',
+//     },
+// }
+//
+// function outputObject (myObject) {
+//     for (const key in myObject) {
+//         console.log(key, myObject[key]);
+//     }
+//
+// outputObject(books);
+
+const books = [
+    {
         name: 'The Richest Man in Babylon',
         pages: 144,
         genre: 'Self-help book',
     },
-    weapon: {
+    {
         name: 'The Perfect Weapon',
         pages: 381,
         genre: 'techno-thriller novel',
         author: 'David E. Sanger',
     },
+];
+
+function outputArrayOfObjects (books) {
+    for (const arrayElement of books) {
+        console.log(arrayElement);
+    }
 }
 
-outputObject(books);
-
+outputArrayOfObjects(books);
 //     5. Напишіть код, який вираховує площу прямокутника висотою 23см та шириною 10см
 //     Значення площі зберігати в змінній s.
 

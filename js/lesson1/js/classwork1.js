@@ -107,7 +107,7 @@ function hypotenuse(n,m) {
     return k;
 }
 
-console.log('Hypotenuse of a right triangle by Pythagoras theorem is ' + hypotenuse(3,4)); // ??? How add Pythagoras'
+console.log("Hypotenuse of a right triangle by Pythagoras' theorem is " + hypotenuse(3,4));
 
 
 //     - Дано змінну time яка рівна числу від 0 до 59. Потрібно написати код, який перевірить,

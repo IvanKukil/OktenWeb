@@ -83,3 +83,32 @@ function minMax(arg) {
 
 document.write(`<h2>Min is: ${minMax(100, 20, 3, 100, 2021)}</h2>`);
 
+function randArray(length) {
+    let arr = [];
+    for (let i = 0; i < length; i++) {
+        arr[i] = Math.floor(Math.random() * (100 + 1));  //min + Math.random() * (max + 1 - min);
+    }
+    return arr;
+}
+
+console.log(randArray(10));
+
+function randArrayLimit(length, limit) {
+    let arr = [];
+    for (let i = 0; i < length; i++) {
+        arr[i] = Math.floor(Math.random() * (limit + 1));  //min + Math.random() * (max + 1 - min);
+    }
+    return arr;
+}
+
+console.log(randArrayLimit(10, 10));
+
+let reverseArray = arr => {
+    let newArr = [];
+    for (let i = arr.length - 1, ri = 0; i >= 0; i--, ri++) {
+        newArr[ri] = arr[i];
+    }
+    return newArr;
+}
+
+console.log(reverseArray([10, 9, 8]));

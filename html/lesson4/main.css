@@ -1,0 +1,17 @@
+.cards {
+    display: flex;
+}
+
+.card {
+    width: 400px;
+    border: 1px solid red;
+    box-sizing: border-box;
+}
+
+.card > div {
+    display: flex;
+}
+
+.card:nth-child(2n) > .inside {
+    flex-direction: row-reverse;
+}

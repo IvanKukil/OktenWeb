@@ -1,0 +1,52 @@
+.brd-r-10 {
+    border-radius: 10px;
+}
+
+.bg-red-base {
+    background: #f15560;
+    margin: 10px;
+}
+
+.h200 {
+    height: 200px;
+}
+
+.w200 {
+    width: 200px;
+}
+
+.w250 {
+    width: 250px;
+}
+
+.w300 {
+    width: 300px;
+}
+
+.w400 {
+    width: 400px;
+}
+
+.h300 {
+    height: 300px;
+}
+
+.bg-dark-base {
+    background: #122d40;
+    margin: 20px;
+}
+
+.round {
+    border-radius: 50%;
+}
+
+.grid-3-3 {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.grid-3-3 > div {
+    margin-left: 5%;
+    margin-right: 5%;
+}

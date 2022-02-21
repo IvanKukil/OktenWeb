@@ -29,6 +29,7 @@ delSpaces(' dirty string   ');
 
 const stringToArray = str => str.split(' ');
 const arr = stringToArray('Каждый охотник желает знать');
+console.log(arr);
 document.writeln(arr);
 
 const insert_dash = str => {
@@ -53,4 +54,4 @@ const capitalize = str => {
     return str.split(' ').map(word => word[0].toUpperCase() + word.slice(1)).join(' ');
 }
 
-console.log(capitalize('okten hi you are welcome'));
+console.log(capitalize('i love java script'));

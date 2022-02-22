@@ -32,7 +32,30 @@ console.log(filterUser);
 const sortUser = userArr.sort((a, b) => a.id - b.id);
 console.log(sortUser);
 
-
 // - створити класс для об'єктів Client з полями id, name, surname , email, phone, order (поле є масивом зі списком товарів)
+
+class Client {
+    constructor(id, name, surname, email, phone, order) {
+        this.id = id;
+        this.name = name;
+        this.surname = surname;
+        this.email = email;
+        this.phone = phone;
+        this.order = order;
+    }
+}
+
 // створити пустий масив, наповнити його 10 об'єктами Client
+
+const emptyArray = [
+    new Client(10, 'Bertold', 'Hofner', 'bertold.hofner@gmail.com', 380972312105, ['history', 'world', 'book']),
+    new Client(34, 'Eron', 'Yeger', 'eron.yeger@gmail.com', 380688042842, ['smartphone', 'android', 'meizu']),
+    new Client(45, 'Mikasa', 'Akerman', 'mikasa.akerman@gmail.com', 380671949273, ['games', 'ps5']),
+    new Client(12, 'Joster', 'Johnson', 'joster.johnson@gmail.com', 380633071428, ['newspaper']),
+];
+console.log(emptyArray);
+
 // - Взяти масив (Client [] з попереднього завдання).Відсортувати його по кількості товарів в полі order по зростанню. (sort)
+
+const sortCLients = emptyArray.sort((a, b) => a.order.length - b.order.length);
+console.log(sortCLients);

@@ -10,6 +10,7 @@ function User(id, name, surname, email, phone) {
 
 }
 
+
 const userArr = [
     new User(2, 'Olga', 'Mitchell', 'olga.m@gmail.com', 380678074447),
     new User(12, 'Anton', 'Vara', 'antovar@gmail.com', 380678074448),

@@ -32,6 +32,7 @@ console.log(filterUser);
 const sortUser = userArr.sort((a, b) => a.id - b.id);
 console.log(sortUser);
 
+
 // - створити класс для об'єктів Client з полями id, name, surname , email, phone, order (поле є масивом зі списком товарів)
 // створити пустий масив, наповнити його 10 об'єктами Client
 // - Взяти масив (Client [] з попереднього завдання).Відсортувати його по кількості товарів в полі order по зростанню. (sort)

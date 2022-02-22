@@ -19,15 +19,19 @@ const userArr = [
     new User(40, 'Aster', 'Johnson', 'astjo@gmail.com', 380678074442),
     new User(52, 'Itachi', 'Uchiha', 'itachi.uchiha@gmail.com', 380678074443)
 ];
+
 console.log(userArr);
 
 // - Взяти масив з  User[] з попереднього завдання, та відфільтрувати , залишивши тільки об'єкти з парними id (filter)
 
-const filterUser = userArr.filter(value => value.id % 2 === 0);
+const filterUser = userArr.filter(user => user.id % 2 === 0);
 console.log(filterUser);
 
 // - Взяти масив з  User[] з попереднього завдання, та відсортувати його по id. по зростанню (sort)
-//
+
+const sortUser = userArr.sort((a, b) => a.id - b.id);
+console.log(sortUser);
+
 // - створити класс для об'єктів Client з полями id, name, surname , email, phone, order (поле є масивом зі списком товарів)
 // створити пустий масив, наповнити його 10 об'єктами Client
 // - Взяти масив (Client [] з попереднього завдання).Відсортувати його по кількості товарів в полі order по зростанню. (sort)

@@ -2,14 +2,12 @@
 // створити пустий масив, наповнити його 10 об'єктами new User(....)
 
 function User(id, name, surname, email, phone) {
-    this.id = id,
-        this.name = name,
-        this.surname = surname,
-        this.email = email,
-        this.phone = phone
-
+    this.id = id;
+        this.name = name;
+        this.surname = surname;
+        this.email = email;
+        this.phone = phone;
 }
-
 
 const userArr = [
     new User(2, 'Olga', 'Mitchell', 'olga.m@gmail.com', 380678074447),

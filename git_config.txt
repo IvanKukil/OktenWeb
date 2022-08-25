@@ -1,0 +1,16 @@
+git config --global user.name "Ivan Kukil"
+git config --global user.email ivan.kukilAMC@gmail.com
+git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
+git config --global init.defaultBranch master
+git config --list
+
+Git Bash
+SSH
+ssh-keygen -t ed25519 -C "ivan.kukilAMC@gmail.com"
+fsocietyelliot09
+
+cd .ssh
+eval $(ssh-agent)
+ssh-add ~/.ssh/id_ed25519
+
+Copy id_ed25519.pub to GitGub add new SSH key
